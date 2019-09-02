@@ -10,3 +10,4 @@ Exercism's JavaScript Track
 3. [Resistor Color](/resistor-color)
 4. [Resistor Color Duo](/resistor-color-duo)
 5. [Gigasecond](/gigasecond)
+6. [RNA Transcription](/rna-transcription)
