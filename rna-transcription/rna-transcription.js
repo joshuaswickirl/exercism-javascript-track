@@ -1,6 +1,5 @@
 // DNA to RNA complement
 const complements = {
-  '': '',
   'G': 'C',
   'C': 'G',
   'T': 'A',
