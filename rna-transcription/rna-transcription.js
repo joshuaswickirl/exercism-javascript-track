@@ -5,7 +5,4 @@ const complements = {
   'T': 'A',
   'A': 'U',
 }
-export const toRna = ( dna_sequence ) => { 
-  const rna = ((dna_sequence.split('')).map( dna => complements[dna] )).join(''); 
-  return rna; 
-};
+export const toRna = ( dna_sequence ) => dna_sequence.replace( /[GCTA]/g, nucleotide => complements[nucleotide]);
