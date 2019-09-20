@@ -11,3 +11,4 @@ Exercism's JavaScript Track
 4. [Resistor Color Duo](/resistor-color-duo)
 5. [Gigasecond](/gigasecond)
 6. [RNA Transcription](/rna-transcription)
+7. [Space Age](/space-age)
