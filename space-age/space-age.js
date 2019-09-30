@@ -1,5 +1,5 @@
-const orbitConversion = {
-  "earth"  : 1,
+const orbitPeriodToEarthConversion = {
+    "earth"  : 1,
 	"mercury": 0.2408467,
 	"venus"  : 0.61519726,
 	"mars"   : 1.8808158,
@@ -9,6 +9,7 @@ const orbitConversion = {
 	"neptune": 164.79132,
 }
 export const age = ( planet, ageSeconds ) => {
-  const earthAge = ageSeconds / 60 / 60 / 24 / 365.25
-  return parseFloat((earthAge / orbitConversion[planet]).toFixed(2))
+  const secondsInEarthYear = 31557600
+  const earthAge = ageSeconds / secondsInEarthYear
+  return parseFloat((earthAge / orbitPeriodToEarthConversion[planet]).toFixed(2))
 };
