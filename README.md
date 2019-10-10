@@ -13,3 +13,4 @@ Exercism's JavaScript Track
 6. [RNA Transcription](/rna-transcription)
 7. [Space Age](/space-age)
 8. [Pangram](/pangram)
+9. [Matrix](/matrix)
