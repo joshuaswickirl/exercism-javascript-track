@@ -12,4 +12,4 @@ Exercism's JavaScript Track
 5. [Gigasecond](/gigasecond)
 6. [RNA Transcription](/rna-transcription)
 7. [Space Age](/space-age)
-8. [Panagram](/panagram)
+8. [Pangram](/pangram)
